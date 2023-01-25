@@ -1,0 +1,69 @@
+.localflorist {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40rem;
+    padding: 20px;
+    padding-top: 80px;
+
+    .yazi {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+
+        h2 {
+            font-weight: 400;
+            font-size: 46px;
+            font-style: normal;
+            color: rgb(12, 91, 71);
+            line-height: 50.6px;
+            text-decoration: none;
+            transform: none;
+            font-family: Quicksand;
+            letter-spacing: 0;
+            max-width: 30%;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            font-style: normal;
+            color: rgb(12, 91, 71);
+            line-height: 24px;
+            text-decoration: none;
+            transform: none;
+            font-family: Quicksand;
+            letter-spacing: 0;
+            max-width: 60%;
+
+        }
+
+        span {
+            font-weight: 400;
+            font-size: 18px;
+            font-style: italic;
+            color: rgb(27, 116, 94);
+            line-height: 27px;
+            text-decoration: none;
+            transform: none;
+            font-family: "Crimson Text";
+            letter-spacing: 0;
+        }
+
+        img {
+            height: 100px;
+            width: 200px;
+        }
+    }
+    .pic{
+        img{
+            position: absolute;
+        }
+
+        .iki{
+            right: 230px;
+            margin-top: 50px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+@import "../../../mixinsAndVariables/style.module.scss";
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $light-green;
+    height: 20rem;
+
+    .input {
+        input {
+            border: none;
+            background-color: $light-green;
+            border-bottom: 1px $dark-green solid;
+        }
+
+        button {
+            background-color: $light-green;
+            border: 1px $dark-green solid;
+            color: $dark-green;
+        }
+    }
+
+    .yazi {
+        color: $dark-green;
+        font-family: Quicksand;
+
+        p {
+            font-style: italic;
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 22px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.slider {
+    height: 50rem;
+    width: 100%;
+
+    .karusel {
+        height: 60rem;
+    }
+
+    .yazi {
+        margin-bottom: 400px;
+
+        .pelem {
+            font-weight: 400;
+            size: 18px;
+            font-style: italic;
+            color: rgb(27, 116, 94);
+            line-height: 27px;
+            text-decoration: none;
+            transform: none;
+            font-family: "Crimson Text";
+            letter-spacing: 0
+        }
+
+    }
+    .helem {
+        font-weight: 400;
+        font-size: 46px;
+        font-style: normal;
+        color: rgb(27, 116, 94);
+        line-height: 50.6px;
+        text-decoration: none;
+        transform: none;
+        font-family: Quicksand;
+        letter-spacing: 0;
+    }
+}
+
+.d-block {
+    height: 20rem;
+}
